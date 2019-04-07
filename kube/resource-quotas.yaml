@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: kubernetes-strta-demo-quotas
+spec:
+  hard:
+    requests.cpu: 2000m
+    requests.memory: 2Gi
+    limits.cpu: 2250m
+    limits.memory: 2.25Gi

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+[ -z "${DEBUG}" ] || set -x
+
+BASEDIR="$(dirname "$0")/.."
+cd "${BASEDIR}"
+
+echo "==> Running tests..."
+echo "No tests to run"
